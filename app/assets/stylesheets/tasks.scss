@@ -1,0 +1,19 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// show
+p {
+  padding: 15px;
+  background-color: lightgray;
+  width: 400px;
+  border-radius: 8px;
+}
+
+div {
+  margin-top: 25px;
+}
+
+.readonly {
+  pointer-events: none;
+}
