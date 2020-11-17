@@ -2,18 +2,60 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-// show
-p {
-  padding: 15px;
-  background-color: lightgray;
-  width: 400px;
-  border-radius: 8px;
+//common
+.container {
+  margin: 50px;
 }
 
-div {
-  margin-top: 25px;
+.btn-back {
+  margin-left: 50px;
 }
 
 .readonly {
   pointer-events: none;
+}
+
+// index
+
+.index-title {
+  margin-bottom: 20px;
+}
+
+// show
+.show-header {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.show-details {
+  padding: 15px;
+  background-color: lightgray;
+  width: 450px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.show-cb {
+  width: 450px;
+}
+
+// edit
+.edit_task {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+// new
+.new_task {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.btn-new {
+  margin-top: 20px;
 }
